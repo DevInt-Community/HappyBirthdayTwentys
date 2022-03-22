@@ -1,15 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-hbd-name',
   templateUrl: './hbd-name.component.html',
-  styleUrls: ['./hbd-name.component.scss']
+  styleUrls: ['./hbd-name.component.scss'],
 })
-export class HbdNameComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class HbdNameComponent {
+  constructor() {}
 }
