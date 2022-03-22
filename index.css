@@ -1,0 +1,829 @@
+.websiteBody{
+  margin: 0;
+}
+.Page{
+  display:block;
+  margin:auto;
+  width:auto;
+  height:auto;
+  pointer-events:auto;
+}
+.Page-outer{
+  pointer-events:none;
+  z-index:1;
+}
+.Frame{
+  position:relative;
+  z-index:2;
+  pointer-events:none;
+  width:auto;
+  margin-left:0;
+  height:auto;
+  min-width:auto;
+  max-width:auto;
+  margin:auto;
+  background-color:#ffffff;
+  overflow:hidden;
+}
+.Frame-outer{
+  pointer-events:none;
+  z-index:2;
+}
+.Group-2{
+  position:relative;
+  z-index:4;
+  pointer-events:none;
+  margin-left:254px;
+  width:841px;
+  min-width:841px;
+  height:730px;
+  margin-top:-72px;
+  margin-bottom:110px;
+  min-height:730px;
+}
+.Group-2-outer{
+  pointer-events:none;
+  z-index:4;
+  position:relative;
+  display:flex;
+}
+.Group-1{
+  position:relative;
+  z-index:6;
+  pointer-events:none;
+  margin-left:0px;
+  width:841px;
+  min-width:841px;
+  height:354px;
+  margin-top:204px;
+  margin-bottom:172px;
+  min-height:354px;
+}
+.Group-1-outer{
+  pointer-events:none;
+  z-index:6;
+  position:relative;
+  display:flex;
+}
+.Polygon-2{
+  position:relative;
+  z-index:10;
+  pointer-events:none;
+  margin-left:34.95838287752675%;
+  width:23.900118906064208%;
+  height:20.056497175141242%;
+  margin-top:34.60166468489893%;
+  content:url(assets/images/Polygon_2.png);
+}
+.Polygon-2-outer{
+  pointer-events:none;
+  z-index:10;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Polygon-1{
+  position:relative;
+  z-index:9;
+  pointer-events:none;
+  margin-left:33.88822829964328%;
+  width:56.00475624256837%;
+  height:17.51412429378531%;
+  margin-top:29.845422116527942%;
+  content:url(assets/images/Polygon_1.png);
+}
+.Polygon-1-outer{
+  pointer-events:none;
+  z-index:9;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.PARABUEINS-{
+  position:relative;
+  z-index:8;
+  pointer-events:none;
+  margin-left:10.463733650416172%;
+  width:76.33769322235435%;
+  height:33.898305084745765%;
+  margin-top:9.869203329369798%;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(239, 247, 255, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:700;
+  font-size:102px;
+  line-height:119.5px;
+  text-shadow:-2px -2px 4px rgba(255, 255, 255, 0.800000011920929);
+}
+.PARABUEINS--outer{
+  pointer-events:none;
+  z-index:8;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Rectangle-3{
+  position:relative;
+  z-index:7;
+  pointer-events:none;
+  margin-left:-0.4756242568370987%;
+  width:100.9512485136742%;
+  height:79.09604519774011%;
+  margin-top:0%;
+  content:url(assets/images/Rectangle_3.png);
+}
+.Rectangle-3-outer{
+  pointer-events:none;
+  z-index:7;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Ellipse-1{
+  position:relative;
+  z-index:5;
+  pointer-events:none;
+  margin-left:9.869203329369798%;
+  width:86.8014268727705%;
+  height:90.13698630136986%;
+  margin-top:8.561236623067776%;
+  content:url(assets/images/Ellipse_1.png);
+}
+.Ellipse-1-outer{
+  pointer-events:none;
+  z-index:5;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Rectangle-1{
+  position:absolute;
+  pointer-events:none;
+  margin-left:0px;
+  width:100%;
+  min-width:1366px;
+  height:100%;
+  margin-top:-768px;
+  margin-bottom:0px;
+  min-height:768px;
+  content:url(assets/images/Rectangle_1.png);
+}
+.Rectangle-1-outer{
+  pointer-events:none;
+  z-index:3;
+  position:relative;
+  display:flex;
+}
+.Group-3{
+  position:relative;
+  z-index:16;
+  pointer-events:none;
+  margin-left:66px;
+  width:1255.45px;
+  min-width:1255.45px;
+  height:721.9px;
+  margin-top:-746px;
+  margin-bottom:24.100000000000023px;
+  min-height:721.9px;
+}
+.Group-3-outer{
+  pointer-events:none;
+  z-index:16;
+  position:relative;
+  display:flex;
+}
+.Polygon-25{
+  position:relative;
+  z-index:30;
+  pointer-events:none;
+  margin-left:326px;
+  width:52.42px;
+  min-width:52.42px;
+  height:65.46px;
+  margin-top:0px;
+  margin-bottom:656.4399999999999px;
+  min-height:65.46px;
+  content:url(assets/images/Polygon_25.png);
+}
+.Polygon-25-outer{
+  pointer-events:none;
+  z-index:30;
+  position:relative;
+  display:flex;
+}
+.Polygon-5{
+  position:relative;
+  z-index:22;
+  pointer-events:none;
+  margin-left:845px;
+  width:119.73px;
+  min-width:119.73px;
+  height:113.4px;
+  margin-top:-704.9px;
+  margin-bottom:591.5px;
+  min-height:113.4px;
+  content:url(assets/images/Polygon_5.png);
+}
+.Polygon-5-outer{
+  pointer-events:none;
+  z-index:22;
+  position:relative;
+  display:flex;
+}
+.Polygon-22{
+  position:relative;
+  z-index:41;
+  pointer-events:none;
+  margin-left:1164px;
+  width:95.45px;
+  min-width:95.45px;
+  height:84.87px;
+  margin-top:-689.9px;
+  margin-bottom:605.03px;
+  min-height:84.87px;
+  content:url(assets/images/Polygon_22.png);
+}
+.Polygon-22-outer{
+  pointer-events:none;
+  z-index:41;
+  position:relative;
+  display:flex;
+}
+.Polygon-3{
+  position:relative;
+  z-index:18;
+  pointer-events:none;
+  margin-left:61px;
+  width:169.22px;
+  min-width:169.22px;
+  height:169.22px;
+  margin-top:-689.9px;
+  margin-bottom:520.68px;
+  min-height:169.22px;
+  content:url(assets/images/Polygon_3.png);
+}
+.Polygon-3-outer{
+  pointer-events:none;
+  z-index:18;
+  position:relative;
+  display:flex;
+}
+.Polygon-27{
+  position:relative;
+  z-index:35;
+  pointer-events:none;
+  margin-left:10px;
+  width:59.14px;
+  min-width:59.14px;
+  height:60.19px;
+  margin-top:-664.9px;
+  margin-bottom:604.71px;
+  min-height:60.19px;
+  content:url(assets/images/Polygon_27.png);
+}
+.Polygon-27-outer{
+  pointer-events:none;
+  z-index:35;
+  position:relative;
+  display:flex;
+}
+.Polygon-12{
+  position:relative;
+  z-index:24;
+  pointer-events:none;
+  margin-left:675px;
+  width:122.66px;
+  min-width:122.66px;
+  height:103.86px;
+  margin-top:-658.9px;
+  margin-bottom:555.04px;
+  min-height:103.86px;
+  content:url(assets/images/Polygon_12.png);
+}
+.Polygon-12-outer{
+  pointer-events:none;
+  z-index:24;
+  position:relative;
+  display:flex;
+}
+.Polygon-11{
+  position:relative;
+  z-index:38;
+  pointer-events:none;
+  margin-left:651px;
+  width:87.22px;
+  min-width:87.22px;
+  height:74.23px;
+  margin-top:-654.9px;
+  margin-bottom:580.67px;
+  min-height:74.23px;
+  content:url(assets/images/Polygon_11.png);
+}
+.Polygon-11-outer{
+  pointer-events:none;
+  z-index:38;
+  position:relative;
+  display:flex;
+}
+.Polygon-15{
+  position:relative;
+  z-index:29;
+  pointer-events:none;
+  margin-left:535px;
+  width:52.42px;
+  min-width:52.42px;
+  height:65.46px;
+  margin-top:-654.9px;
+  margin-bottom:589.44px;
+  min-height:65.46px;
+  content:url(assets/images/Polygon_15.png);
+}
+.Polygon-15-outer{
+  pointer-events:none;
+  z-index:29;
+  position:relative;
+  display:flex;
+}
+.Polygon-8{
+  position:relative;
+  z-index:42;
+  pointer-events:none;
+  margin-left:238px;
+  width:104.81px;
+  min-width:104.81px;
+  height:116.9px;
+  margin-top:-635.9px;
+  margin-bottom:519px;
+  min-height:116.9px;
+  content:url(assets/images/Polygon_8.png);
+}
+.Polygon-8-outer{
+  pointer-events:none;
+  z-index:42;
+  position:relative;
+  display:flex;
+}
+.Polygon-14{
+  position:relative;
+  z-index:28;
+  pointer-events:none;
+  margin-left:150px;
+  width:65.49px;
+  min-width:65.49px;
+  height:53.05px;
+  margin-top:-607.9px;
+  margin-bottom:554.8499999999999px;
+  min-height:53.05px;
+  content:url(assets/images/Polygon_14.png);
+}
+.Polygon-14-outer{
+  pointer-events:none;
+  z-index:28;
+  position:relative;
+  display:flex;
+}
+.Polygon-24{
+  position:relative;
+  z-index:39;
+  pointer-events:none;
+  margin-left:-4px;
+  width:87.22px;
+  min-width:87.22px;
+  height:74.23px;
+  margin-top:-551.9px;
+  margin-bottom:477.66999999999996px;
+  min-height:74.23px;
+  content:url(assets/images/Polygon_24.png);
+}
+.Polygon-24-outer{
+  pointer-events:none;
+  z-index:39;
+  position:relative;
+  display:flex;
+}
+.Polygon-4{
+  position:relative;
+  z-index:20;
+  pointer-events:none;
+  margin-left:1006px;
+  width:166.05px;
+  min-width:166.05px;
+  height:96.96px;
+  margin-top:-551.9px;
+  margin-bottom:454.94px;
+  min-height:96.96px;
+  content:url(assets/images/Polygon_4.png);
+}
+.Polygon-4-outer{
+  pointer-events:none;
+  z-index:20;
+  position:relative;
+  display:flex;
+}
+.Polygon-17{
+  position:relative;
+  z-index:31;
+  pointer-events:none;
+  margin-left:1066px;
+  width:44.42px;
+  min-width:44.42px;
+  height:57.46px;
+  margin-top:-504.9px;
+  margin-bottom:447.44px;
+  min-height:57.46px;
+  content:url(assets/images/Polygon_17.png);
+}
+.Polygon-17-outer{
+  pointer-events:none;
+  z-index:31;
+  position:relative;
+  display:flex;
+}
+.Polygon-7{
+  position:relative;
+  z-index:40;
+  pointer-events:none;
+  margin-left:106px;
+  width:95.45px;
+  min-width:95.45px;
+  height:84.87px;
+  margin-top:-440.9px;
+  margin-bottom:356.03px;
+  min-height:84.87px;
+  content:url(assets/images/Polygon_7.png);
+}
+.Polygon-7-outer{
+  pointer-events:none;
+  z-index:40;
+  position:relative;
+  display:flex;
+}
+.Polygon-16{
+  position:relative;
+  z-index:33;
+  pointer-events:none;
+  margin-left:254px;
+  width:102.56px;
+  min-width:102.56px;
+  height:108.24px;
+  margin-top:-372.9px;
+  margin-bottom:264.65999999999997px;
+  min-height:108.24px;
+  content:url(assets/images/Polygon_16.png);
+}
+.Polygon-16-outer{
+  pointer-events:none;
+  z-index:33;
+  position:relative;
+  display:flex;
+}
+.Polygon-13{
+  position:relative;
+  z-index:25;
+  pointer-events:none;
+  margin-left:931px;
+  width:108.19px;
+  min-width:108.19px;
+  height:73.27px;
+  margin-top:-338.9px;
+  margin-bottom:265.63px;
+  min-height:73.27px;
+  content:url(assets/images/Polygon_13.png);
+}
+.Polygon-13-outer{
+  pointer-events:none;
+  z-index:25;
+  position:relative;
+  display:flex;
+}
+.Polygon-6{
+  position:relative;
+  z-index:23;
+  pointer-events:none;
+  margin-left:358px;
+  width:122.66px;
+  min-width:122.66px;
+  height:103.86px;
+  margin-top:-336.9px;
+  margin-bottom:233.03999999999996px;
+  min-height:103.86px;
+  content:url(assets/images/Polygon_6.png);
+}
+.Polygon-6-outer{
+  pointer-events:none;
+  z-index:23;
+  position:relative;
+  display:flex;
+}
+.Polygon-10{
+  position:relative;
+  z-index:37;
+  pointer-events:none;
+  margin-left:775px;
+  width:51.7px;
+  min-width:51.7px;
+  height:44.53px;
+  margin-top:-322.9px;
+  margin-bottom:278.37px;
+  min-height:44.53px;
+  content:url(assets/images/Polygon_10.png);
+}
+.Polygon-10-outer{
+  pointer-events:none;
+  z-index:37;
+  position:relative;
+  display:flex;
+}
+.Polygon-9{
+  position:relative;
+  z-index:36;
+  pointer-events:none;
+  margin-left:779px;
+  width:43.7px;
+  min-width:43.7px;
+  height:36.53px;
+  margin-top:-319.9px;
+  margin-bottom:283.37px;
+  min-height:36.53px;
+  content:url(assets/images/Polygon_9.png);
+}
+.Polygon-9-outer{
+  pointer-events:none;
+  z-index:36;
+  position:relative;
+  display:flex;
+}
+.Polygon-23{
+  position:relative;
+  z-index:32;
+  pointer-events:none;
+  margin-left:1180px;
+  width:52.42px;
+  min-width:52.42px;
+  height:65.46px;
+  margin-top:-306.9px;
+  margin-bottom:241.44px;
+  min-height:65.46px;
+  content:url(assets/images/Polygon_23.png);
+}
+.Polygon-23-outer{
+  pointer-events:none;
+  z-index:32;
+  position:relative;
+  display:flex;
+}
+.Polygon-18{
+  position:relative;
+  z-index:34;
+  pointer-events:none;
+  margin-left:600px;
+  width:59.14px;
+  min-width:59.14px;
+  height:60.19px;
+  margin-top:-266.9px;
+  margin-bottom:206.70999999999992px;
+  min-height:60.19px;
+  content:url(assets/images/Polygon_18.png);
+}
+.Polygon-18-outer{
+  pointer-events:none;
+  z-index:34;
+  position:relative;
+  display:flex;
+}
+.Polygon-28{
+  position:relative;
+  z-index:19;
+  pointer-events:none;
+  margin-left:107px;
+  width:177.64px;
+  min-width:177.64px;
+  height:149.82px;
+  margin-top:-230.89999999999998px;
+  margin-bottom:81.08000000000004px;
+  min-height:149.82px;
+  content:url(assets/images/Polygon_28.png);
+}
+.Polygon-28-outer{
+  pointer-events:none;
+  z-index:19;
+  position:relative;
+  display:flex;
+}
+.Polygon-29{
+  position:relative;
+  z-index:21;
+  pointer-events:none;
+  margin-left:829px;
+  width:176.83px;
+  min-width:176.83px;
+  height:131.4px;
+  margin-top:-194.89999999999998px;
+  margin-bottom:63.5px;
+  min-height:131.4px;
+  content:url(assets/images/Polygon_29.png);
+}
+.Polygon-29-outer{
+  pointer-events:none;
+  z-index:21;
+  position:relative;
+  display:flex;
+}
+.Polygon-20{
+  position:relative;
+  z-index:27;
+  pointer-events:none;
+  margin-left:1180px;
+  width:57.87px;
+  min-width:57.87px;
+  height:61.18px;
+  margin-top:-134.89999999999998px;
+  margin-bottom:73.72000000000003px;
+  min-height:61.18px;
+  content:url(assets/images/Polygon_20.png);
+}
+.Polygon-20-outer{
+  pointer-events:none;
+  z-index:27;
+  position:relative;
+  display:flex;
+}
+.Polygon-21{
+  position:relative;
+  z-index:17;
+  pointer-events:none;
+  margin-left:10px;
+  width:59.14px;
+  min-width:59.14px;
+  height:60.19px;
+  margin-top:-110.89999999999998px;
+  margin-bottom:50.70999999999992px;
+  min-height:60.19px;
+  content:url(assets/images/Polygon_21.png);
+}
+.Polygon-21-outer{
+  pointer-events:none;
+  z-index:17;
+  position:relative;
+  display:flex;
+}
+.Polygon-26{
+  position:relative;
+  z-index:43;
+  pointer-events:none;
+  margin-left:308px;
+  width:104.81px;
+  min-width:104.81px;
+  height:116.9px;
+  margin-top:-108.89999999999998px;
+  margin-bottom:-8px;
+  min-height:116.9px;
+  content:url(assets/images/Polygon_26.png);
+}
+.Polygon-26-outer{
+  pointer-events:none;
+  z-index:43;
+  position:relative;
+  display:flex;
+}
+.Polygon-19{
+  position:relative;
+  z-index:26;
+  pointer-events:none;
+  margin-left:1004px;
+  width:116.19px;
+  min-width:116.19px;
+  height:81.27px;
+  margin-top:-81.89999999999998px;
+  margin-bottom:0.6299999999999955px;
+  min-height:81.27px;
+  content:url(assets/images/Polygon_19.png);
+}
+.Polygon-19-outer{
+  pointer-events:none;
+  z-index:26;
+  position:relative;
+  display:flex;
+}
+.Group-4{
+  position:relative;
+  z-index:11;
+  pointer-events:none;
+  margin-left:445px;
+  width:444px;
+  min-width:444px;
+  height:207px;
+  margin-top:-260px;
+  margin-bottom:53px;
+  min-height:207px;
+}
+.Group-4-outer{
+  pointer-events:none;
+  z-index:11;
+  position:relative;
+  display:flex;
+}
+.Rectangle-5{
+  position:relative;
+  z-index:12;
+  pointer-events:none;
+  margin-left:3px;
+  width:301.5px;
+  min-width:301.5px;
+  height:120.5px;
+  margin-top:-8px;
+  margin-bottom:94.5px;
+  min-height:120.5px;
+  content:url(assets/images/Rectangle_5.png);
+}
+.Rectangle-5-outer{
+  pointer-events:none;
+  z-index:12;
+  position:relative;
+  display:flex;
+}
+.Rectangle-4{
+  position:relative;
+  z-index:14;
+  pointer-events:none;
+  margin-left:-8px;
+  width:460px;
+  min-width:460px;
+  height:174px;
+  margin-top:-178px;
+  margin-bottom:4px;
+  min-height:174px;
+  content:url(assets/images/Rectangle_4.png);
+}
+.Rectangle-4-outer{
+  pointer-events:none;
+  z-index:14;
+  position:relative;
+  display:flex;
+}
+.Thuzin{
+  position:relative;
+  z-index:15;
+  pointer-events:none;
+  margin-left:61px;
+  width:314px;
+  min-width:314px;
+  margin-top:-155px;
+  margin-bottom:35px;
+  min-height:120px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(239, 247, 255, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:700;
+  font-size:102px;
+  line-height:119.5px;
+  text-shadow:-2px -2px 4px rgba(255, 255, 255, 0.800000011920929);
+}
+.Thuzin-outer{
+  pointer-events:none;
+  z-index:15;
+  position:relative;
+  display:flex;
+}
+.Rectangle-6{
+  position:relative;
+  z-index:13;
+  pointer-events:none;
+  margin-left:183px;
+  width:232.31px;
+  min-width:232.31px;
+  height:77.06px;
+  margin-top:-70px;
+  margin-bottom:-7.059999999999945px;
+  min-height:77.06px;
+  content:url(assets/images/Rectangle_6.png);
+}
+.Rectangle-6-outer{
+  pointer-events:none;
+  z-index:13;
+  position:relative;
+  display:flex;
+}
