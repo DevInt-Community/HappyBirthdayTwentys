@@ -7,6 +7,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { HappyBirthdayComponent } from './pages/home/happy-birthday/happy-birthday.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HbdNameComponent } from './pages/home/hbd-name/hbd-name.component';
+import { ConfettiComponent } from './pages/home/confetti/confetti.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { HbdNameComponent } from './pages/home/hbd-name/hbd-name.component';
     HomeComponent,
     HappyBirthdayComponent,
     HbdNameComponent,
+    ConfettiComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],

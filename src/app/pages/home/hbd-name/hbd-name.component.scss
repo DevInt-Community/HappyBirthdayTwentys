@@ -48,20 +48,20 @@
 
 @keyframes left-to-center {
   0% {
-    margin-left: -2000px;
+    margin-left: -100vw;
   }
   60% {
-    margin-left: -2000px;
+    margin-left: -100vw;
     opacity: 0;
   }
 }
 
 @keyframes right-to-center {
   0% {
-    margin-left: 2000px;
+    margin-left: 100vw;
   }
   60% {
-    margin-left: 2000px;
+    margin-left: 100vw;
     opacity: 0;
   }
 }
