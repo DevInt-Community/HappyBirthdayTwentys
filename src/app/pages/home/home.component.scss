@@ -1,0 +1,14 @@
+.hbd-home {
+  display: flex;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  background: radial-gradient(
+      50.35% 53.58% at 48.24% 46.42%,
+      #ffffff 0%,
+      #eeeeee 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
