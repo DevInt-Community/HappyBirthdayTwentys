@@ -6,6 +6,9 @@
     "happy-birthday-twentys": {
       "projectType": "application",
       "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        },
         "@schematics/angular:application": {
           "strict": true
         }
@@ -26,8 +29,9 @@
               "src/favicon.ico",
               "src/assets"
             ],
+            "inlineStyleLanguage": "scss",
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -93,8 +97,9 @@
               "src/favicon.ico",
               "src/assets"
             ],
+            "inlineStyleLanguage": "scss",
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }
