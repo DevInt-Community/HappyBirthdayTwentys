@@ -1,14 +1,15 @@
 .hbd-name-card {
   position: relative;
-  margin-top: 5vh;
+  padding-top: 4vh;
+  padding-inline: 25vh;
   user-select: none;
+  overflow: hidden;
 
   .primary-hdb-name-card {
-    animation: left-to-center 3s, move 3s 3.3s infinite;;
+    animation: left-to-center 3s, move 3s 3.3s infinite;
     position: relative;
     z-index: 1000;
     span {
-
       position: absolute;
       margin-left: -227px;
       margin-top: 11px;
@@ -36,7 +37,7 @@
     }
   }
   .secundary-n2-hdb-name-card {
-    position: fixed;
+    position: absolute;
     z-index: 998;
     svg {
       animation: right-to-center 3s;
@@ -52,6 +53,8 @@
   }
   60% {
     margin-left: -100vw;
+  }
+  80%{
     opacity: 0;
   }
 }
@@ -62,6 +65,8 @@
   }
   60% {
     margin-left: 100vw;
+  }
+  80%{
     opacity: 0;
   }
 }

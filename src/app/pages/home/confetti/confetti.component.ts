@@ -1,46 +1,42 @@
-import { Component } from '@angular/core';
+import { AfterViewChecked, Component } from '@angular/core';
 
 type colors = '#FE3464' | '#F8D55B' | '#319CFF' | '#18E098';
-
-interface IConfetti {
-  color: colors;
-  size: number;
-  speed: number;
-  direction: {
-    width: number;
-    height: number;
-  };
-}
 
 @Component({
   selector: 'app-confetti',
   templateUrl: './confetti.component.html',
   styleUrls: ['./confetti.component.scss'],
 })
-export class ConfettiComponent {
-  public confettis: IConfetti[] = [];
+export class ConfettiComponent implements AfterViewChecked {
+  constructor() {}
 
-  constructor() {
-    this.confettis = this.generateConfetti();
+  ngAfterViewChecked() {
+    this.generateConfetti();
   }
 
-  private generateConfetti(): IConfetti[] {
-    let confettis: IConfetti[] = [];
-    let confettiQuantity = 400;
+  private generateConfetti() {
+    let confettisTags: string = '';
+    let confettiQuantity = 250;
 
     for (let i = 0; i < confettiQuantity; i++) {
-      confettis.push({
-        color: this.generateColor(),
-        size: this.generateSize(),
-        speed: this.generateSpeed(),
-        direction: {
-          width: this.generateDirection(),
-          height: this.generateDirection(),
-        },
-      });
+      let size = this.generateSize();
+
+      confettisTags += `
+      <div style="
+        position: fixed;
+        z-index: 500;
+        background-color: ${this.generateColor()};
+        width: ${size}px;
+        height: ${size}px;
+        border-radius: 50%;
+        animation: boom ${this.generateSpeed()}s ease-out infinite;
+        left: ${this.generateDirection()}vw;
+        top: ${this.generateDirection()}vh;
+      "></div>
+      `;
     }
 
-    return confettis;
+    document.querySelector('.space-confetti')!.innerHTML = confettisTags;
   }
 
   private generateColor(): colors {
@@ -50,7 +46,7 @@ export class ConfettiComponent {
   }
 
   private generateSize(): number {
-    return Math.round(this.getRandomArbitrary(6, 12));
+    return Math.round(this.getRandomArbitrary(9, 13));
   }
 
   private generateSpeed(): number {

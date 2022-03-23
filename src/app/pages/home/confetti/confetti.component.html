@@ -1,16 +1,1 @@
-<div class="space-confetti">
-  <div
-    *ngFor="let confetti of confettis"
-    style="
-  position: fixed;
-  z-index: 500;
-  background-color: {{ confetti.color }};
-  width: {{ confetti.size }}px;
-  height: {{ confetti.size }}px;
-  border-radius: 50%;
-  animation: boom {{ confetti.speed }}s ease-out infinite;
-  left: {{ confetti.direction.width }}vw;
-  top: {{ confetti.direction.height }}vh;
-  "
-  ></div>
-</div>
+<div class="space-confetti"></div>
