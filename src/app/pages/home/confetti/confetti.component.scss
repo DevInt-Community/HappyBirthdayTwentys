@@ -9,23 +9,24 @@
 @keyframes boom {
   0% {
     left: 50vw;
-    top: 40vh;
+    top: 35vh;
     opacity: 0;
   }
   39% {
     left: 50vw;
-    top: 40vh;
+    top: 35vh;
     opacity: 0;
   }
   40% {
     left: 50vw;
-    top: 40vh;
+    top: 35vh;
+    opacity: 1;
+    transform: scale(0.4);
+  }
+  96% {
     opacity: 1;
   }
-  96%{
-    opacity: 1;
-  }
-  100%{
+  100% {
     opacity: 0;
   }
 }
