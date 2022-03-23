@@ -14,18 +14,20 @@
   }
   39% {
     left: 50vw;
-    top: 40vh;
+    top: 35vh;
     opacity: 0;
+    transform: scale(0.3);
   }
   40% {
     left: 50vw;
-    top: 40vh;
+    top: 35vh;
     opacity: 1;
   }
-  96%{
+  96% {
+    transform: scale(1);
     opacity: 1;
   }
-  100%{
+  100% {
     opacity: 0;
   }
 }

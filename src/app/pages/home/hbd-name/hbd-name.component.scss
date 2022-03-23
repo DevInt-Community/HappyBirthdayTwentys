@@ -4,7 +4,7 @@
   user-select: none;
 
   .primary-hdb-name-card {
-    animation: left-to-center 3s;
+    animation: left-to-center 3s, move 3s 3.3s infinite;;
     position: relative;
     z-index: 1000;
     span {

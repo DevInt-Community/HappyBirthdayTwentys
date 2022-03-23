@@ -50,7 +50,7 @@ export class ConfettiComponent {
   }
 
   private generateSize(): number {
-    return Math.round(this.getRandomArbitrary(10, 14));
+    return Math.round(this.getRandomArbitrary(6, 12));
   }
 
   private generateSpeed(): number {
