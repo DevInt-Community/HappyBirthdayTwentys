@@ -1,0 +1,31 @@
+.space-confetti {
+  position: absolute;
+  z-index: 500;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+@keyframes boom {
+  0% {
+    left: 50vw;
+    top: 40vh;
+    opacity: 0;
+  }
+  39% {
+    left: 50vw;
+    top: 40vh;
+    opacity: 0;
+  }
+  40% {
+    left: 50vw;
+    top: 40vh;
+    opacity: 1;
+  }
+  96%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}

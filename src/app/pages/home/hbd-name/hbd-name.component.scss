@@ -1,0 +1,67 @@
+.hbd-name-card {
+  position: relative;
+  margin-top: 5vh;
+  user-select: none;
+
+  .primary-hdb-name-card {
+    animation: left-to-center 3s;
+    position: relative;
+    z-index: 1000;
+    span {
+
+      position: absolute;
+      margin-left: -227px;
+      margin-top: 11px;
+
+      color: transparent;
+      background-color: #6b6b6b;
+      text-shadow: 0px 2px 1px rgba(255, 255, 255, 0.938);
+
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      background-clip: text;
+
+      font-size: 55px;
+      font-weight: 600;
+    }
+  }
+
+  .secundary-n1-hdb-name-card {
+    position: relative;
+    z-index: 999;
+    svg {
+      animation: left-to-center 3.2s;
+      margin-left: 10px;
+      margin-top: -235px;
+    }
+  }
+  .secundary-n2-hdb-name-card {
+    position: fixed;
+    z-index: 998;
+    svg {
+      animation: right-to-center 3s;
+      margin-left: 115px;
+      margin-top: -110px;
+    }
+  }
+}
+
+@keyframes left-to-center {
+  0% {
+    margin-left: -100vw;
+  }
+  60% {
+    margin-left: -100vw;
+    opacity: 0;
+  }
+}
+
+@keyframes right-to-center {
+  0% {
+    margin-left: 100vw;
+  }
+  60% {
+    margin-left: 100vw;
+    opacity: 0;
+  }
+}
